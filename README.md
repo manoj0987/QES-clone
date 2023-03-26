@@ -39,32 +39,20 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### `npm install`
+Make sure that you have installed the necessary dependencies. Run the following command in your terminal:
+This command will install all the required dependencies specified in the package.json file.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `npm list -g react-scripts`
+Check if the 'react-scripts' command is installed globally. You can check this by running the following command:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If it is not installed globally, install it using the following command:
+### `npm install -g react-scripts`
+If the above steps do not solve the issue, try deleting the 'node_modules' folder and the 'package-lock.json' file and then run the 'npm install' command again.
 
-### Code Splitting
+Finally, make sure that your environment variables are set up correctly. Ensure that the path to the 'node_modules/.bin' directory is included in your system's PATH variable.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Once you have completed these steps, try running the 'react-scripts build' command again, and it should work without any issues.
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
